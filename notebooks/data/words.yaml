@@ -1,0 +1,472 @@
+ambiguous_verbs:
+- file
+- dribble
+- tap
+- charge
+noun_groups:
+  charge:
+  - rate
+  - person
+  - price
+  - demonstrator
+  - rent
+  - defendant
+  - interest
+  - fee
+  - offender
+  - commission
+  dribble:
+  - ball
+  - wine
+  - blood
+  - melon
+  - tea
+  - sphere
+  file:
+  - account
+  - nail
+  - charge_n
+  - tooth
+  - application
+  - steel
+  - lawsuit
+  - shank
+  - declaration
+  tap:
+  - table
+  - telephone
+  - tree
+  - conversation
+  - resource
+  - pencil
+  - door
+  - network
+  - market
+  - floor
+noun_vectors:
+  account:
+  - -0.723
+  - 0.2642
+  - -0.5248
+  - 0.3633
+  application:
+  - -0.7326
+  - 0.3343
+  - -0.5385
+  - 0.2482
+  ball:
+  - 0.4161
+  - 0.0783
+  - -0.3172
+  - 0.8486
+  blood:
+  - -0.0479
+  - 0.2075
+  - -0.9178
+  - 0.3352
+  charge_n:
+  - -0.5424
+  - 0.1908
+  - -0.7257
+  - 0.3778
+  commission:
+  - -0.891
+  - 0.2101
+  - 0.1429
+  - 0.3762
+  conversation:
+  - 0.2944
+  - 0.6949
+  - -0.3218
+  - 0.5717
+  declaration:
+  - -0.4787
+  - 0.4893
+  - -0.4541
+  - 0.5703
+  defendant:
+  - 0.1225
+  - 0.5828
+  - -0.5197
+  - 0.6125
+  demonstrator:
+  - -0.4419
+  - 0.14
+  - -0.5075
+  - 0.7263
+  door:
+  - -0.11
+  - -0.5008
+  - -0.6715
+  - 0.5349
+  fee:
+  - -0.7712
+  - 0.222
+  - -0.4951
+  - 0.3329
+  floor:
+  - -0.3457
+  - -0.671
+  - -0.4851
+  - 0.4415
+  interest:
+  - -0.4113
+  - 0.2674
+  - -0.7568
+  - 0.4319
+  lawsuit:
+  - -0.0909
+  - 0.3183
+  - -0.2122
+  - 0.9195
+  market:
+  - -0.7091
+  - -0.097
+  - -0.5788
+  - 0.3909
+  melon:
+  - 0.3245
+  - 0.0767
+  - -0.708
+  - 0.6225
+  nail:
+  - 0.2529
+  - 0.1547
+  - -0.833
+  - 0.4671
+  network:
+  - -0.9259
+  - 0.0329
+  - -0.2829
+  - 0.2483
+  offender:
+  - -0.4162
+  - 0.4162
+  - -0.6836
+  - 0.4315
+  pencil:
+  - -0.093
+  - 0.4754
+  - -0.6821
+  - 0.5478
+  person:
+  - 0.2131
+  - 0.3594
+  - -0.7313
+  - 0.5391
+  price:
+  - -0.7025
+  - 0.1771
+  - -0.5726
+  - 0.3837
+  rate:
+  - -0.4509
+  - 0.2131
+  - -0.8
+  - 0.3336
+  rent:
+  - -0.7239
+  - -0.229
+  - -0.4663
+  - 0.454
+  resource:
+  - -0.8214
+  - 0.2125
+  - -0.4768
+  - 0.2298
+  shank:
+  - -0.068
+  - 0.2365
+  - -0.6673
+  - 0.703
+  sphere:
+  - -0.0086
+  - -0.0374
+  - -0.9119
+  - 0.4085
+  steel:
+  - -0.5121
+  - -0.0056
+  - -0.6957
+  - 0.5037
+  table:
+  - -0.4716
+  - 0.1613
+  - -0.7539
+  - 0.4281
+  tea:
+  - -0.3995
+  - -0.2571
+  - -0.5418
+  - 0.6933
+  telephone:
+  - -0.9445
+  - 0.1183
+  - -0.0877
+  - 0.2937
+  tooth:
+  - 0.2913
+  - 0.0993
+  - -0.8783
+  - 0.3658
+  tree:
+  - 0.0958
+  - -0.6
+  - -0.6782
+  - 0.4134
+  wine:
+  - -0.2405
+  - -0.1006
+  - -0.7084
+  - 0.6559
+nouns:
+- account
+- application
+- ball
+- blood
+- charge_n
+- commission
+- conversation
+- declaration
+- defendant
+- demonstrator
+- door
+- fee
+- floor
+- interest
+- lawsuit
+- market
+- melon
+- nail
+- network
+- offender
+- pencil
+- person
+- price
+- rate
+- rent
+- resource
+- shank
+- sphere
+- steel
+- table
+- tea
+- telephone
+- tooth
+- tree
+- wine
+pairs:
+  charge:
+  - accuse
+  - bill
+  dribble:
+  - drip
+  - carry
+  file:
+  - register
+  - smooth
+  tap:
+  - intercept
+  - knock
+sentences:
+  accuse commission: 0
+  accuse defendant: 1
+  accuse demonstrator: 1
+  accuse fee: 0
+  accuse interest: 0
+  accuse offender: 1
+  accuse person: 1
+  accuse price: 0
+  accuse rate: 0
+  accuse rent: 0
+  bill commission: 1
+  bill defendant: 0
+  bill demonstrator: 0
+  bill fee: 1
+  bill interest: 1
+  bill offender: 0
+  bill person: 0
+  bill price: 1
+  bill rate: 1
+  bill rent: 1
+  carry ball: 1
+  carry blood: 0
+  carry melon: 0
+  carry sphere: 1
+  carry tea: 0
+  carry wine: 0
+  charge commission: 1
+  charge defendant: 1
+  charge demonstrator: 1
+  charge fee: 1
+  charge interest: 1
+  charge offender: 1
+  charge person: 1
+  charge price: 1
+  charge rate: 1
+  charge rent: 1
+  dribble ball: 1
+  dribble blood: 1
+  dribble melon: 1
+  dribble sphere: 1
+  dribble tea: 1
+  dribble wine: 1
+  drip ball: 0
+  drip blood: 1
+  drip melon: 1
+  drip sphere: 0
+  drip tea: 1
+  drip wine: 1
+  file account: 1
+  file application: 1
+  file charge_n: 1
+  file declaration: 1
+  file lawsuit: 1
+  file nail: 1
+  file shank: 1
+  file steel: 1
+  file tooth: 1
+  intercept conversation: 1
+  intercept door: 0
+  intercept floor: 0
+  intercept market: 1
+  intercept network: 1
+  intercept pencil: 0
+  intercept resource: 1
+  intercept table: 0
+  intercept telephone: 1
+  intercept tree: 0
+  knock conversation: 0
+  knock door: 1
+  knock floor: 1
+  knock market: 0
+  knock network: 0
+  knock pencil: 1
+  knock resource: 0
+  knock table: 1
+  knock telephone: 0
+  knock tree: 1
+  register account: 1
+  register application: 1
+  register charge_n: 1
+  register declaration: 1
+  register lawsuit: 1
+  register nail: 0
+  register shank: 0
+  register steel: 0
+  register tooth: 0
+  smooth account: 0
+  smooth application: 0
+  smooth charge_n: 0
+  smooth declaration: 0
+  smooth lawsuit: 0
+  smooth nail: 1
+  smooth shank: 1
+  smooth steel: 1
+  smooth tooth: 1
+  tap conversation: 1
+  tap door: 1
+  tap floor: 1
+  tap market: 1
+  tap network: 1
+  tap pencil: 1
+  tap resource: 1
+  tap table: 1
+  tap telephone: 1
+  tap tree: 1
+sub_nouns:
+- account
+- nail
+- charge
+- tooth
+- application
+- steel
+- lawsuit
+- shank
+- declaration
+sub_nouns_train_test:
+- account
+- nail
+- charge
+- tooth
+- application
+- steel
+- lawsuit
+- shank
+- door
+- declaration
+- sphere
+- tea
+- wine
+sub_sentences:
+  file account: 1
+  file application: 1
+  file charge_n: 1
+  file declaration: 1
+  file lawsuit: 1
+  file nail: 1
+  file shank: 1
+  file steel: 1
+  file tooth: 1
+  register account: 1
+  register application: 1
+  register charge_n: 1
+  register declaration: 1
+  register lawsuit: 1
+  register nail: 0
+  register shank: 0
+  register steel: 0
+  register tooth: 0
+  smooth account: 0
+  smooth application: 0
+  smooth charge_n: 0
+  smooth declaration: 0
+  smooth lawsuit: 0
+  smooth nail: 1
+  smooth shank: 1
+  smooth steel: 1
+  smooth tooth: 1
+sub_sentences_test:
+  file declaration: 1
+  file nail: 1
+  file wine: 0
+  register lawsuit: 1
+  register sphere: 0
+  register tooth: 0
+  smooth application: 0
+  smooth sphere: 0
+sub_sentences_train:
+  file account: 1
+  file application: 1
+  file blood: 0
+  file charge: 1
+  file door: 1
+  file lawsuit: 1
+  file shank: 1
+  file sphere: 0
+  file steel: 1
+  file tea: 0
+  file tooth: 1
+  register account: 1
+  register application: 1
+  register blood: 0
+  register charge: 1
+  register declaration: 1
+  register door: 0
+  register nail: 0
+  register shank: 0
+  register steel: 0
+  register tea: 0
+  register wine: 0
+  smooth account: 0
+  smooth blood: 0
+  smooth charge: 0
+  smooth declaration: 0
+  smooth door: 0
+  smooth lawsuit: 0
+  smooth nail: 1
+  smooth shank: 1
+  smooth steel: 1
+  smooth tea: 0
+  smooth tooth: 1
+  smooth wine: 0
