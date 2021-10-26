@@ -7,7 +7,7 @@ WORKDIR /home/jovyan/work
 
 ADD notebooks notebooks
 
-RUN chown -R jovyan demo
+RUN chown -R jovyan notebooks
 
 USER jovyan
 CMD ["start-notebook.sh"]
