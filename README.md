@@ -1,6 +1,6 @@
 # Quantum Computing Project 2021
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sntownsend/QuantumComputingProject2021/HEAD?labpath=%3Ftree)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sntownsend/QuantumComputingProject2021/HEAD?labpath=notebooks%2F1%E2%80%94PoSTagging.ipynb)
 
 This is a quantum NLP tutorial I wrote for COMP3710 Spring 2021 at ANU. It is based on the MS thesis of Thomas Hoffmann at Chalmers University, who kindly posted his code on [GitHub](https://github.com/Thommy257/Quantum-Models-for-Word-Sense-Disambiguation) and was very patient in helping me understand his work.
 
